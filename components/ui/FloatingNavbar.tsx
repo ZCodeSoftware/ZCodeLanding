@@ -15,7 +15,7 @@ const NavbarComponent: React.FC = () => {
         <nav className="sticky px-4 top-0 z-50 bg-transparent mb-4 w-full rounded-xl shadow-md" style={{ boxShadow: '0 5px 5px -2px rgba(0, 255, 241, 0.5)' }}>
             <div className="w-full px-2 flex justify-between items-center">
                 <div className="text-3xl md:text-4xl font-bold text-[#9344d4]">
-                    <img src="/jsm-logo.png" alt="Logo" className="h-20 w-20" />
+                    <img src="/zcodelogo.jpg" alt="Logo" className="h-20 w-20" />
                 </div>
                 <ul className="hidden md:flex space-x-6 text-lg md:text-xl">
                      <li>

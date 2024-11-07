@@ -10,8 +10,8 @@ export const navItems = [
 export const gridItems = [
   {
     id: 1,
-    title: "Priorizamos ​​la colaboración con el cliente, fomentando la comunicación abierta. ",
-    description: "",
+    title: "Colaboración Cercana",
+    description: "Priorizamos la colaboración con el cliente, fomentando la comunicación abierta y continua.",
     className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
     imgClassName: "w-full h-full",
     titleClassName: "justify-end",
@@ -20,8 +20,8 @@ export const gridItems = [
   },
   {
     id: 2,
-    title: "Ofrecemos servicios de mudanza a cualquier rincón del país",
-    description: "",
+    title: "Desarrollo Web",
+    description: "Creamos aplicaciones web modernas y escalables para impulsar tu negocio.",
     className: "lg:col-span-2 md:col-span-3 md:row-span-2",
     imgClassName: "",
     titleClassName: "justify-start",
@@ -30,8 +30,8 @@ export const gridItems = [
   },
   {
     id: 3,
-    title: "Cuidado",
-    description: "Ofrecemos una variedad de soluciones de embalaje.",
+    title: "Desarrollo Móvil",
+    description: "Desarrollamos aplicaciones móviles nativas y multiplataforma para alcanzar a tus usuarios en cualquier dispositivo.",
     className: "lg:col-span-2 md:col-span-3 md:row-span-2",
     imgClassName: "",
     titleClassName: "justify-center",
@@ -40,19 +40,18 @@ export const gridItems = [
   },
   {
     id: 4,
-    title: "Nos adaptamos a tus horarios para que la mudanza sea más conveniente para ti.",
-    description: "",
+    title: "Consultoría Tecnológica",
+    description: "Ofrecemos asesoramiento experto para ayudarte a tomar decisiones tecnológicas informadas.",
     className: "lg:col-span-2 md:col-span-3 md:row-span-1",
     imgClassName: "",
     titleClassName: "justify-start",
     img: "/grid.svg",
     spareImg: "/b4.svg",
   },
-
   {
     id: 5,
-    title: "Descarga nuestro archivo con consejos útiles para una mudanza sin contratiempos.",
-    description: "Guía de Recomendaciones",
+    title: "Soluciones Personalizadas",
+    description: "Desarrollamos soluciones de software a medida para satisfacer las necesidades específicas de tu negocio.",
     className: "md:col-span-3 md:row-span-2",
     imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
     titleClassName: "justify-center md:justify-start lg:justify-center",
@@ -61,8 +60,8 @@ export const gridItems = [
   },
   {
     id: 6,
-    title: "Envíanos un correo para coordinar tu mudanza",
-    description: "",
+    title: "Soporte Continuo",
+    description: "Proveemos soporte y mantenimiento continuo para asegurar el éxito a largo plazo de tus proyectos.",
     className: "lg:col-span-2 md:col-span-3 md:row-span-1",
     imgClassName: "",
     titleClassName: "justify-center md:max-w-full max-w-60 text-center",
@@ -70,7 +69,6 @@ export const gridItems = [
     spareImg: "",
   },
 ];
-
 export const projects = [
   {
     id: 1,

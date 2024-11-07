@@ -1,7 +1,5 @@
 "use client";
 
-import { navItems } from "@/data";
-
 import Hero from "@/components/Hero";
 import Grid from "@/components/Grid";
 import Footer from "@/components/Footer";
@@ -10,6 +8,7 @@ import Experience from "@/components/Experience";
 import RecentProjects from "@/components/RecentProjects";
 import NavbarComponent from "@/components/ui/FloatingNavbar";
 import { BackgroundBeamsWithCollision } from "@/components/ui/background-beams-with-collision";
+import { LampDemo } from "@/components/ui/lamp";
 
 
 const Home = () => {
@@ -22,6 +21,7 @@ const Home = () => {
         <NavbarComponent />
         <Hero />
         <Grid />
+        <LampDemo/>
         <RecentProjects />
         <Experience />
         <Approach />

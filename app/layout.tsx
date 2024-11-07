@@ -8,8 +8,8 @@ import { ThemeProvider } from "./provider";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Mudanzas en Córdoba con Mudanzas I-Z",
-  description: "Mudanzas De Cordoba a Todo el Pais",
+  title: "ZCode Software Factory",
+  description: "En ZCode, transformamos tus ideas en soluciones digitales innovadoras. Desde Córdoba, desarrollamos software a medida que impulsa tu negocio hacia el futuro. Nuestro equipo de expertos está comprometido con la excelencia, asegurando que cada proyecto se entregue con la más alta calidad y precisión. Confía en nosotros para llevar tu visión a la realidad, con tecnología de vanguardia y un enfoque centrado en el cliente.",
 };
 
 export default function RootLayout({
@@ -20,7 +20,7 @@ export default function RootLayout({
   return (
     <html lang="es" suppressHydrationWarning>
       <head>
-        <link rel="icon" href="/jsm-logo.png" sizes="any" />
+        <link rel="icon" href="/zcodelogo.jpg" sizes="any" />
       </head>
       <body className={inter.className}>
         <ThemeProvider
