@@ -12,52 +12,44 @@ const NavbarComponent: React.FC = () => {
 
   return (
     <nav
-      className="sticky px-4 top-0 z-50 bg-transparent mb-4 w-full rounded-xl shadow-md"
+      className="sticky top-0 z-50 w-full bg-gradient-to-r from-[#1d072e] to-[#bc8a2e] shadow-md"
       style={{ boxShadow: "0 5px 5px -2px rgba(0, 255, 241, 0.5)" }}
     >
-      <div className="w-full px-2 flex justify-between items-center">
-        <div className="text-3xl md:text-4xl font-bold text-[#9344d4]">
-          <img src="/zcodelogo.jpeg" alt="Logo" className="h-20 w-20" />
+      <div className="w-full px-4 flex justify-between items-center">
+        <div className="text-3xl md:text-4xl font-bold text-[#bc8a2e]">
+          <img src="/zcodelogo.png" alt="Logo" className="h-24 w-24" />
         </div>
         <ul className="hidden md:flex space-x-6 text-lg md:text-xl">
           <li>
-            <Link href="/" className="text-[#9344d4] hover:underline">
-              INICIO
+            <Link href="/" className="text-white hover:underline">
+              Inicio
             </Link>
           </li>
           <li>
-            <Link href="/#about" className="text-[#9344d4] hover:underline">
-              QUIÉNES SOMOS
+            <Link href="/#about" className="text-white hover:underline">
+              Quiénes somos
             </Link>
           </li>
           <li>
-            <Link href="/#projects" className="text-[#9344d4] hover:underline">
-              SERVICIOS
+            <Link href="/#projects" className="text-white hover:underline">
+              Servicios
             </Link>
           </li>
           <li>
-            <Link
-              href="/#testimonials"
-              className="text-[#9344d4] hover:underline"
-            >
-              TESTIMONIOS
+            <Link href="/#testimonials" className="text-white hover:underline">
+              Testimonios
             </Link>
           </li>
           <li>
-            <Link href="/#contact" className="text-[#9344d4] hover:underline">
-              CONTACTO
-            </Link>
-          </li>
-          <li>
-            <Link href="/gallery" className="text-[#9344d4] hover:underline">
-              GALERIA
+            <Link href="/#contact" className="text-white hover:underline">
+              Contacto
             </Link>
           </li>
         </ul>
         <div className="md:hidden">
           <button
             onClick={toggleMenu}
-            className="text-[#9344d4] focus:outline-none"
+            className="text-white focus:outline-none"
           >
             <svg
               className="w-8 h-8"
@@ -83,7 +75,7 @@ const NavbarComponent: React.FC = () => {
         onClick={toggleMenu}
       ></div>
       <div
-        className={`fixed inset-y-0 left-0 bg-gray-800 w-64 z-50 transform transition-transform duration-300 ${
+        className={`fixed inset-y-0 left-0 bg-gray-900 bg-opacity-80 backdrop-blur-lg w-64 z-50 transform transition-transform duration-300 ${
           isMenuOpen ? "translate-x-0" : "-translate-x-full"
         } rounded-r-lg`}
       >
@@ -91,55 +83,46 @@ const NavbarComponent: React.FC = () => {
           <li>
             <Link
               href="/"
-              className="text-[#9344d4] hover:underline"
+              className="text-white hover:underline"
               onClick={toggleMenu}
             >
-              INICIO
+              Inicio
             </Link>
           </li>
           <li>
             <Link
               href="/#about"
-              className="text-[#9344d4] hover:underline"
+              className="text-white hover:underline"
               onClick={toggleMenu}
             >
-              QUIÉNES SOMOS
+              Quiénes somos
             </Link>
           </li>
           <li>
             <Link
               href="/#projects"
-              className="text-[#9344d4] hover:underline"
+              className="text-white hover:underline"
               onClick={toggleMenu}
             >
-              SERVICIOS
+              Servicios
             </Link>
           </li>
           <li>
             <Link
               href="/#testimonials"
-              className="text-[#9344d4] hover:underline"
+              className="text-white hover:underline"
               onClick={toggleMenu}
             >
-              TESTIMONIOS
+              Testimonios
             </Link>
           </li>
           <li>
             <Link
               href="/#contact"
-              className="text-[#9344d4] hover:underline"
+              className="text-white hover:underline"
               onClick={toggleMenu}
             >
-              CONTACTO
-            </Link>
-          </li>
-          <li>
-            <Link
-              href="/gallery"
-              className="text-[#9344d4] hover:underline"
-              onClick={toggleMenu}
-            >
-              GALERIA
+              Contacto
             </Link>
           </li>
         </ul>

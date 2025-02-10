@@ -4,8 +4,8 @@ import Hero from "@/components/Hero";
 import Grid from "@/components/Grid";
 import Footer from "@/components/Footer";
 import Experience from "@/components/Experience";
-import RecentProjects from "@/components/RecentProjects";
 import NavbarComponent from "@/components/ui/FloatingNavbar";
+import Clients from "@/components/Clients";
 
 const Home = () => {
   return (
@@ -15,6 +15,7 @@ const Home = () => {
         <Hero />
         <Grid />
         <Experience />
+        {/* <Clients /> */}
         <Footer />
       </div>
     </main>

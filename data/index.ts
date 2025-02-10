@@ -75,71 +75,37 @@ export const gridItems = [
     spareImg: "",
   },
 ];
-export const projects = [
-  {
-    id: 1,
-    title: "Mudanza a Buenos Aires",
-    des: "Mudanza con embalaje y traslado de muebles a Buenos Aires.",
-    img: "/mov1.jpg",
-    iconLists: [],
-    link: "#",
-  },
-  {
-    id: 2,
-    title: "Mudanza a Buenos Aires",
-    des: "Mudanza con embalaje y traslado de muebles a Buenos Aires.",
-    img: "/mov1.jpg",
-    iconLists: [],
-    link: "",
-  },
-  {
-    id: 3,
-    title: "Mudanza a Buenos Aires",
-    des: "Mudanza con embalaje y traslado de muebles a Buenos Aires.",
-    img: "/mov1.jpg",
-    iconLists: [],
-    link: "",
-  },
-  {
-    id: 4,
-    title: "Mudanza a Buenos Aires",
-    des: "Mudanza con embalaje y traslado de muebles a Buenos Aires.",
-    img: "/mov1.jpg",
-    iconLists: [],
-    link: "",
-  },
-];
 
 export const testimonials = [
   {
     quote:
-      "Mudanzas IZ hizo que nuestra mudanza fuera completamente libre de estrés. Su equipo fue puntual, profesional y manejó todas nuestras pertenencias con el máximo cuidado. Sin duda, los recomendaría a cualquiera que necesite un servicio de mudanza confiable.",
+      "Trabajar con Z Code fue una experiencia excepcional. Su equipo entendió perfectamente nuestras necesidades y desarrolló una solución a medida que optimizó nuestros procesos internos. Altamente recomendados.",
     name: "Carolina Gómez",
-    title: "Clienta Residencial",
+    title: "CEO, Innovatech Solutions",
   },
   {
     quote:
-      "Nos mudamos de Córdoba a Buenos Aires y Mudanzas IZ fue increíble desde el principio hasta el final. La comunicación fue excelente, y todo llegó en perfectas condiciones. Gracias por hacer que nuestro traslado fuera tan fácil.",
+      "Z Code transformó nuestra idea en una plataforma SaaS escalable y eficiente. La comunicación y el profesionalismo del equipo fueron clave para el éxito del proyecto.",
     name: "Juan Pérez",
-    title: "Cliente Corporativo",
+    title: "Fundador, StartUp SaaS",
   },
   {
     quote:
-      "El equipo de Mudanzas IZ fue excepcional. Se encargaron de todo, desde el embalaje hasta el transporte, con una atención al detalle que realmente me impresionó. Me sentí apoyado durante todo el proceso.",
+      "Necesitábamos una aplicación móvil funcional y atractiva para nuestros clientes, y Z Code superó nuestras expectativas. Su enfoque en la experiencia del usuario marcó la diferencia.",
     name: "Sofía Martínez",
-    title: "Clienta Residencial",
+    title: "Gerente de Producto, FitApp",
   },
   {
     quote:
-      "Nuestra empresa necesitaba trasladar equipo delicado y Mudanzas IZ superó nuestras expectativas. Su equipo fue extremadamente cuidadoso y profesional. Nos mudaremos con ellos nuevamente sin dudarlo.",
+      "Contratamos a Z Code para la integración de múltiples APIs en nuestro sistema y su trabajo fue impecable. Ahora nuestra plataforma es mucho más eficiente y automatizada.",
     name: "Roberto García",
-    title: "Gerente de Operaciones, TechSolutions",
+    title: "CTO, E-Commerce Pro",
   },
   {
     quote:
-      "Mudanzas IZ nos ayudó con una mudanza de último minuto y no podríamos estar más agradecidos. Su servicio fue rápido, eficiente y con una excelente atención al cliente. ¡Muy recomendados!",
+      "Gracias a Z Code, logramos optimizar y modernizar nuestro software existente sin interrumpir nuestras operaciones. Su equipo técnico es de primer nivel.",
     name: "Laura Rodríguez",
-    title: "Clienta Residencial",
+    title: "Directora de Tecnología, FinTech Solutions",
   },
 ];
 
@@ -179,45 +145,45 @@ export const companies = [
 export const workExperience = [
   {
     id: 1,
-    title: "Mudanzas Residenciales",
-    desc: "Realizamos mudanzas de hogares con cuidado y precisión, asegurando que tus pertenencias lleguen seguras a su nuevo destino.",
+    title: "Desarrollo de Software a Medida",
+    desc: "Creamos soluciones personalizadas para empresas, adaptándonos a sus necesidades y objetivos específicos.",
     className: "md:col-span-2",
-    thumbnail: "/mudanza-residencial.jpg",
+    thumbnail: "/software-a-medida.jpg",
   },
   {
     id: 2,
-    title: "Mudanzas Corporativas",
-    desc: "Ofrecemos servicios de mudanza para oficinas y empresas, minimizando el tiempo de inactividad y asegurando una transición sin problemas.",
+    title: "Desarrollo de Plataformas SaaS",
+    desc: "Diseñamos y construimos plataformas SaaS escalables para digitalizar y optimizar procesos empresariales.",
     className: "md:col-span-2",
-    thumbnail: "/mudanza-corporativa.jpg",
+    thumbnail: "/saas.jpg",
   },
   {
     id: 3,
-    title: "Servicios en Altura",
-    desc: "Especialistas en trasladar muebles y objetos voluminosos desde o hacia pisos altos, con el equipo y la experiencia necesarios para garantizar la seguridad.",
+    title: "Desarrollo de Aplicaciones Móviles",
+    desc: "Creamos apps móviles nativas y multiplataforma para Android e iOS, impulsando la movilidad de los negocios.",
     className: "md:col-span-2",
-    thumbnail: "/servicios-altura.jpg",
+    thumbnail: "/apps-moviles.jpg",
   },
   {
     id: 4,
-    title: "Mudanzas a Todo el País",
-    desc: "Nos encargamos de mudanzas a cualquier rincón del país, llevando tus pertenencias de manera segura y confiable.",
+    title: "Consultoría en Tecnología",
+    desc: "Brindamos asesoramiento en desarrollo de software, arquitectura de sistemas y transformación digital.",
     className: "md:col-span-2",
-    thumbnail: "/mudanzas-pais.png",
+    thumbnail: "/consultoria.jpg",
   },
   {
     id: 5,
-    title: "Embalajes Nacionales e Internacionales",
-    desc: "Ofrecemos soluciones de embalaje adecuadas para mudanzas tanto nacionales como internacionales, protegiendo tus bienes durante el transporte.",
+    title: "Integración de APIs y Servicios",
+    desc: "Conectamos software con APIs de terceros para mejorar la eficiencia y automatización de los procesos empresariales.",
     className: "md:col-span-2",
-    thumbnail: "/embalajes.jpg",
+    thumbnail: "/integracion-apis.jpg",
   },
   {
     id: 6,
-    title: "Mudanzas Especiales",
-    desc: "Traslado de objetos delicados o de gran valor, como obras de arte, pianos y antigüedades, con un servicio especializado para cada necesidad.",
+    title: "Optimización y Mantenimiento de Software",
+    desc: "Mejoramos el rendimiento, la seguridad y la escalabilidad de sistemas existentes, asegurando su continuidad operativa.",
     className: "md:col-span-2",
-    thumbnail: "/mudanzas-especiales.jpg",
+    thumbnail: "/mantenimiento-software.jpg",
   },
 ];
 

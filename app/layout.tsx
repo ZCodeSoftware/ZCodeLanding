@@ -22,7 +22,28 @@ export default function RootLayout({
   return (
     <html lang="es" suppressHydrationWarning>
       <head>
-        <link rel="icon" href="/zcodelogo.jpg" sizes="any" />
+        <link rel="icon" href="/zcodelogo.png" sizes="any" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta
+          name="keywords"
+          content="software, desarrollo, tecnología, soluciones digitales, ZCode"
+        />
+        <meta name="author" content="ZCode Software Factory" />
+        <meta property="og:title" content="ZCode Software Factory" />
+        <meta
+          property="og:description"
+          content="En ZCode, transformamos tus ideas en soluciones digitales innovadoras. Desarrollamos software a medida que impulsa tu negocio hacia el futuro."
+        />
+        <meta property="og:image" content="/zcodelogo.png" />
+        <meta property="og:url" content="https://www.zcode.com" />
+        <meta property="og:type" content="website" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="ZCode Software Factory" />
+        <meta
+          name="twitter:description"
+          content="En ZCode, transformamos tus ideas en soluciones digitales innovadoras. Desarrollamos software a medida que impulsa tu negocio hacia el futuro."
+        />
+        <meta name="twitter:image" content="/zcodelogo.png" />
         {/* Google Tag Manager */}
         <script
           async

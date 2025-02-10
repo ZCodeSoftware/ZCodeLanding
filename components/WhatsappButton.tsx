@@ -1,10 +1,13 @@
-import React from 'react';
+import React from "react";
 
 const WhatsappButton = () => {
-  const phoneNumber = '3517656103';
-  const message = 'Hola, quiero cotizar una mudanza, me comunico desde la web.';
+  const phoneNumber = "3515177171";
+  const message =
+    "Hola, quiero hablar sobre el desarrollo de software, me comunico desde la web.";
 
-  const whatsappUrl = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
+  const whatsappUrl = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(
+    message
+  )}`;
 
   return (
     <a
@@ -12,7 +15,7 @@ const WhatsappButton = () => {
       target="_blank"
       rel="noopener noreferrer"
       className="fixed bottom-4 right-4 bg-green-500 text-white p-3 rounded-full shadow-lg flex items-center justify-center hover:bg-green-600 transition-colors duration-300"
-      style={{ zIndex: 1000 }}
+      style={{ zIndex: 1000, cursor: "pointer" }}
     >
       <svg
         xmlns="http://www.w3.org/2000/svg"
