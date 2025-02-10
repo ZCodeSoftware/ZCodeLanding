@@ -9,7 +9,7 @@ const RecentProjects = () => {
   return (
     <div className="py-20" id="projects">
       <h1 className="heading">
-       Una pequeña selección de{" "}
+        Una pequeña selección de{" "}
         <span className="text-purple">trabajos recientes</span>
       </h1>
       <div className="flex flex-wrap items-center justify-center p-4 gap-16 mt-10">
@@ -18,10 +18,7 @@ const RecentProjects = () => {
             className="lg:min-h-[32.5rem] h-[25rem] flex items-center justify-center sm:w-96 w-[80vw]"
             key={item.id}
           >
-            <PinContainer
-              title="BS.AS"
-              href="#"
-            >
+            <PinContainer title="BS.AS" href="#">
               <div className="relative flex items-center justify-center sm:w-96 w-[80vw] overflow-hidden h-[20vh] lg:h-[30vh] mb-10">
                 <div
                   className="relative w-full h-full overflow-hidden lg:rounded-3xl"
@@ -67,7 +64,7 @@ const RecentProjects = () => {
 
                 <div className="flex justify-center items-center">
                   <p className="flex lg:text-xl md:text-xs text-sm text-purple">
-                    Mudanzas I-Z
+                    Z Code
                   </p>
                   <FaLocationArrow className="ms-3" color="#CBACF9" />
                 </div>

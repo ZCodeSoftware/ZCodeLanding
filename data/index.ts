@@ -11,17 +11,19 @@ export const gridItems = [
   {
     id: 1,
     title: "Colaboración Cercana",
-    description: "Priorizamos la colaboración con el cliente, fomentando la comunicación abierta y continua.",
+    description:
+      "Priorizamos la colaboración con el cliente, fomentando la comunicación abierta y continua.",
     className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
     imgClassName: "w-full h-full",
     titleClassName: "justify-end",
-    img: "/comunication.jpg",
+    img: "/attention.jpg",
     spareImg: "",
   },
   {
     id: 2,
     title: "Desarrollo Web",
-    description: "Creamos aplicaciones web modernas y escalables para impulsar tu negocio.",
+    description:
+      "Creamos aplicaciones web modernas y escalables para impulsar tu negocio.",
     className: "lg:col-span-2 md:col-span-3 md:row-span-2",
     imgClassName: "",
     titleClassName: "justify-start",
@@ -31,17 +33,19 @@ export const gridItems = [
   {
     id: 3,
     title: "Desarrollo Móvil",
-    description: "Desarrollamos aplicaciones móviles nativas y multiplataforma para alcanzar a tus usuarios en cualquier dispositivo.",
+    description:
+      "Desarrollamos aplicaciones móviles nativas y multiplataforma para alcanzar a tus usuarios en cualquier dispositivo.",
     className: "lg:col-span-2 md:col-span-3 md:row-span-2",
     imgClassName: "",
     titleClassName: "justify-center",
-    img: "/boxes.jpg",
+    img: "/iphone.jpg",
     spareImg: "",
   },
   {
     id: 4,
     title: "Consultoría Tecnológica",
-    description: "Ofrecemos asesoramiento experto para ayudarte a tomar decisiones tecnológicas informadas.",
+    description:
+      "Ofrecemos asesoramiento experto para ayudarte a tomar decisiones tecnológicas informadas.",
     className: "lg:col-span-2 md:col-span-3 md:row-span-1",
     imgClassName: "",
     titleClassName: "justify-start",
@@ -51,17 +55,19 @@ export const gridItems = [
   {
     id: 5,
     title: "Soluciones Personalizadas",
-    description: "Desarrollamos soluciones de software a medida para satisfacer las necesidades específicas de tu negocio.",
+    description:
+      "Desarrollamos soluciones de software a medida para satisfacer las necesidades específicas de tu negocio.",
     className: "md:col-span-3 md:row-span-2",
     imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
     titleClassName: "justify-center md:justify-start lg:justify-center",
-    img: "/guide.jpg",
+    img: "/software.jpg",
     spareImg: "/grid.svg",
   },
   {
     id: 6,
     title: "Soporte Continuo",
-    description: "Proveemos soporte y mantenimiento continuo para asegurar el éxito a largo plazo de tus proyectos.",
+    description:
+      "Proveemos soporte y mantenimiento continuo para asegurar el éxito a largo plazo de tus proyectos.",
     className: "lg:col-span-2 md:col-span-3 md:row-span-1",
     imgClassName: "",
     titleClassName: "justify-center md:max-w-full max-w-60 text-center",
@@ -136,7 +142,6 @@ export const testimonials = [
     title: "Clienta Residencial",
   },
 ];
-
 
 export const companies = [
   {
@@ -215,7 +220,6 @@ export const workExperience = [
     thumbnail: "/mudanzas-especiales.jpg",
   },
 ];
-
 
 export const socialMedia = [
   {

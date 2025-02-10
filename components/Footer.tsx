@@ -17,29 +17,30 @@ const Footer = () => {
       </div>
 
       <div className="flex flex-col items-center">
-       <h1 className="heading lg:max-w-[45vw]">
-  ¿Listo para hacer <span className="text-purple">tu mudanza</span> sin estrés?
-</h1>
-<p className="text-white-200 md:mt-10 my-5 text-center">
-  Contáctanos hoy mismo y planifiquemos juntos tu transición sin contratiempos a tu nuevo hogar.
-</p>
+        <h1 className="heading lg:max-w-[45vw]">
+          ¿Listo para hacer <span className="text-purple">tu mudanza</span> sin
+          estrés?
+        </h1>
+        <p className="text-white-200 md:mt-10 my-5 text-center">
+          Contáctanos hoy mismo y planifiquemos juntos tu transición sin
+          contratiempos a tu nuevo hogar.
+        </p>
 
         <a href="mailto:info.zcode@gmail.com">
-  <MagicButton
-    title="Hablemos"
-    icon={<FaLocationArrow />}
-    position="right"
-  />
-</a>
-</div>
-<div className="flex mt-16 md:flex-row flex-col justify-between items-center">
-  <p className="md:text-base text-sm md:font-normal font-light">
-       Copyright © {new Date().getFullYear()} Mudanzas IZ
-  </p>
-
+          <MagicButton
+            title="Hablemos"
+            icon={<FaLocationArrow />}
+            position="right"
+          />
+        </a>
+      </div>
+      <div className="flex mt-16 md:flex-row flex-col justify-between items-center">
+        <p className="md:text-base text-sm md:font-normal font-light">
+          Copyright © {new Date().getFullYear()} Z Code | Software Factory
+        </p>
 
         <div className="flex items-center md:gap-3 gap-6">
-         <SocialLinks />
+          <SocialLinks />
         </div>
       </div>
     </footer>
