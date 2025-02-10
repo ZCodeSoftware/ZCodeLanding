@@ -3,12 +3,9 @@
 import Hero from "@/components/Hero";
 import Grid from "@/components/Grid";
 import Footer from "@/components/Footer";
-import Approach from "@/components/Approach";
 import Experience from "@/components/Experience";
 import RecentProjects from "@/components/RecentProjects";
 import NavbarComponent from "@/components/ui/FloatingNavbar";
-import { BackgroundBeamsWithCollision } from "@/components/ui/background-beams-with-collision";
-import { LampDemo } from "@/components/ui/lamp";
 
 const Home = () => {
   return (
@@ -18,7 +15,6 @@ const Home = () => {
         <Hero />
         <Grid />
         <Experience />
-        <Approach />
         <Footer />
       </div>
     </main>
